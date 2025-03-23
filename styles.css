@@ -1,0 +1,65 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Fixed Navigation Bar */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #333;
+    padding: 15px 0;
+    text-align: center;
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+/* Navigation Links */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s, background 0.3s;
+    padding: 10px;
+}
+
+/* Hover Effect */
+nav ul li a {
+    color: rgb(108, 108, 31);
+    background: rgba(55, 35, 35, 0.2);
+    border-radius: 5px;
+}
+
+/* Scroll Effect */
+.scrolled {
+    background: #323030;
+    box-shadow: 0px 4px 8px rgba(59, 36, 36, 0.3);
+}
+
+/* Page Sections */
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+/* Section Background Colors */
+#home { background: rgb(120, 201, 227); }
+#about { background: rgb(159, 94, 94); }
+#services { background: rgb(79, 161, 79); }
+#contact { background: rgb(168, 168, 75); }
